@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 body {
-  background: #1d3557;
-  color: #a8dadc;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #eeeeee;
+  /* background-image: url('./img/bot.jpg'); */
+  /* background-size: contain; */
+  height: 100vh;
+
+  color: #000000;
+  font-family: 'Karla', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,11 +15,12 @@ body {
 h1 {
   font-size: 40px;
   font-weight: 600;
-  border: 3px dashed #00b4d8;
+  border: 3px dashed #00b0;
   padding: 10px 20px;
   margin-bottom: 40px;
   text-align: center;
 }
+
 
 .flex {
   display: flex;
@@ -26,17 +31,21 @@ h1 {
 }
 
 #result {
+  
   font-size: 36px;
-  color: #caf0f8;
+  color: #000000;
+  text-align: center;
   
 }
 
 #ans {
-  color: #edf2f4;
+  color: #000000;
   padding: 20px;
   font-size: 26px;
+  margin-top: 20px;
   background: transparent;
-  border: 0;
+  border: 2px solid #023e8a;
+  border-radius: 4px;
 }
 
 #ans:focus {
@@ -58,13 +67,13 @@ h1 {
 }
 
 #result {
-  color: #ade8f4;
+  color: #000000;
   font-size: 24px;
   text-align: center;
 }
 
 #ans {
-  color: #90e0ef;
+  color: #000000;
   font-size: 18px;
 }
 
